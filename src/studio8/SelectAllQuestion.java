@@ -19,6 +19,7 @@ public class SelectAllQuestion extends MultipleChoiceQuestion {
 		return 0;
 	}
 	
+	
 	public static void main(String[] args) {
 		String[] choices = {"instance variables", "git", "methods", "eclipse"};
 		Question selectAll = new SelectAllQuestion("Select all of the following that can be found within a class:", "13", choices);
